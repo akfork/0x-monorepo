@@ -177,6 +177,10 @@ setup(
         "mypy_extensions",
         "web3",
     ],
+    dependency_links=[
+        "http://github.com/0xProject/web3.py/tarball/feature"
+        + "/naive-tuple-support#egg=web3"
+    ],
     extras_require={
         "dev": [
             "bandit",
