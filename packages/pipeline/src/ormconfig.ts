@@ -2,6 +2,11 @@ import { ConnectionOptions } from 'typeorm';
 
 import {
     Block,
+    CopperActivity,
+    CopperActivityType,
+    CopperCustomField,
+    CopperLead,
+    CopperOpportunity,
     DexTrade,
     ERC20ApprovalEvent,
     ExchangeCancelEvent,
@@ -18,6 +23,11 @@ import {
 
 const entities = [
     Block,
+    CopperOpportunity,
+    CopperActivity,
+    CopperActivityType,
+    CopperCustomField,
+    CopperLead,
     DexTrade,
     ExchangeCancelEvent,
     ExchangeCancelUpToEvent,
@@ -34,7 +44,7 @@ const entities = [
 
 const config: ConnectionOptions = {
     type: 'postgres',
-    url: process.env.ZEROEX_DATA_PIPELINE_DB_URL,
+    url: 'postgresql://localhost:5432/datapipeline_test_copper',
     synchronize: false,
     logging: ['error'],
     entities,
