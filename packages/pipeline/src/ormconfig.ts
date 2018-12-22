@@ -44,7 +44,7 @@ const entities = [
 
 const config: ConnectionOptions = {
     type: 'postgres',
-    url: 'postgresql://localhost:5432/datapipeline_test_copper',
+    url: process.env.ZEROEX_DATA_PIPELINE_DB_URL,
     synchronize: false,
     logging: ['error'],
     entities,

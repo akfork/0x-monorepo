@@ -7,7 +7,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1545329595000,
         "dateModified": 1545329595000,
         "oldValueId": 2392929,
@@ -23,7 +22,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1545245706000,
         "dateModified": 1545245706000,
         "oldValueId": 2392928,
@@ -38,7 +36,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Call\n- Has been in startup space for awhile \n- Series A crunch makes it tough to get liquidity for startups\n- Liquidity models are tough barrier to entry \n- Not sure of their approach, but they&#x27;re looking at prospectively building with multiple protocols (mentioned paradigm by name)\n- Discussed the grant program and tokenized securities models\n- Will check back in later to see where we can find closer alignment\n- Sounds extremely early and not terribly educated about the prospective infrastructure requirements for issuing tokenized securities",
         "dateCreated": 1545168280000,
         "dateModified": 1545166908000
     },
@@ -49,7 +46,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Follow On: EAP Wallet // Infrastructure\n\n- Based on our priorities, Balance could help create a stronger user interface, short positions, CDPs\n- Test nets, local nets as a 1st step\n- Single destination for various categories of relayer interaction\n- Niche financial tool access\n\n- Next Steps: Probably start with test net and then run from there",
         "dateCreated": 1545160479000,
         "dateModified": 1545080504000
     },
@@ -60,7 +56,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Meeting\n\n- Followed up with Tyler from Shapeshift re: TW integration with KeepKey &amp; Shapeshift trading team opportunities around liquidity sourcing + provision\n- Interesting opportunity to explore re: Shapeshift using excess inventory to market make on DEXes, crypto native + lots of excess could be alternative monetization path for them\n- They have a joint slack with most of their partners so will work to get at least Tom + Jacob + Me added\n- On the TW side will need to explore with the Keep Key Dev team",
         "dateCreated": 1545071500000,
         "dateModified": 1545071374000
     },
@@ -71,7 +66,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Meeting\n\n- Bitski competitor focused on wallet SDK secured by HSMs \n- Funding from Lightspeed, SV Angel\n- 1x founder with exit from previous company sold to Docker\n- Team of 8 with co-founders from Yelp + Uber\n- Onboarding enabled through phone number rather than email, doesn&#x27;t seem to be single sign on\n- Looking to bundle instant / 0x for easier access to other ERC-20 + 721 assets\n- Probably good to have them go through boost program to make bundling official",
         "dateCreated": 1544644661000,
         "dateModified": 1544644058000
     },
@@ -82,7 +76,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Twitter DM\n\nHey Clay, the article you wrote about 22 ideas to explore with 0x was very inspiring. I&#x27;m currently working on a project that let developers interact with dapps without requiring MetaMask and am thinking about deeper integration with 0x to help make these use cases even better. The project is https://fortmatic.com  and I&#x27;d love to hear what you think and explore possibilities of working together!",
         "dateCreated": 1544644053000,
         "dateModified": 1544644048000
     },
@@ -93,7 +86,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Meeting\n\n- Hydrogen interested in adding one click buy functionality to their FinTech dApp store\n- As a follow up we&#x27;ll stay in touch should they have questions but seem pretty self sufficient.",
         "dateCreated": 1544563224000,
         "dateModified": 1544563171000
     },
@@ -105,7 +97,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1544562495000,
         "dateModified": 1544562495000,
         "oldValueId": 2392928,
@@ -120,7 +111,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Meeting\n\n- Instant overview, likely need to route through RexRelay or another community member\n- Probabilistic micropayments\n- Help with intros to folks market making when it makes sense",
         "dateCreated": 1544562118000,
         "dateModified": 1544559279000
     },
@@ -132,7 +122,6 @@
         "typeCategory": "system",
         "typeName": "Status Change",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544558077000,
         "dateModified": 1544558077000
     },
@@ -143,7 +132,6 @@
         "typeId": 1,
         "typeCategory": "system",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544558077000,
         "dateModified": 1544558077000
     },
@@ -154,7 +142,6 @@
         "typeId": 1,
         "typeCategory": "system",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544558077000,
         "dateModified": 1544558077000
     },
@@ -166,7 +153,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1544558071000,
         "dateModified": 1544558071000,
         "oldValueId": 2392931,
@@ -182,7 +168,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1544557777000,
         "dateModified": 1544557777000,
         "oldValueId": 2392928,
@@ -197,7 +182,6 @@
         "typeId": 660495,
         "typeCategory": "user",
         "userId": 680302,
-        "details": "Intro Meeting\n-  Andrew leads BD for Partial F\n- Isaac is a core Dev\n- PF is in stealth mode right now, decentralized derivatives, doing so in a different way\n- Inverse BTC price token, long is a CDP like smart contract called a CDD (collateralized dynamic debt)\n- Dai is deposited Short tokens are minted and sold on the market  / CDD creates long Short tokens &#x3D; short \n- If demand for short is greater than long, creates arb opportunity, allows folks to arb the spread \n- MVP by January\n- GTM / User experience - will be on some sort of DEX, listed as an ERC-20 Token, users will be more so on the institutional side \n- Intro to EverBloom, Radar Relay, Paradex\n- Jacob follow up \n- Grant program",
         "dateCreated": 1544556132000,
         "dateModified": 1544554864000
     },
@@ -209,7 +193,6 @@
         "typeCategory": "system",
         "typeName": "Stage Change",
         "userId": 680302,
-        "details": "512676",
         "dateCreated": 1544469501000,
         "dateModified": 1544469501000,
         "oldValueId": 2392928,
@@ -224,7 +207,6 @@
         "typeId": 1,
         "typeCategory": "system",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544469389000,
         "dateModified": 1544469389000
     },
@@ -236,7 +218,6 @@
         "typeCategory": "system",
         "typeName": "Status Change",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544469388000,
         "dateModified": 1544469388000
     },
@@ -247,7 +228,6 @@
         "typeId": 1,
         "typeCategory": "system",
         "userId": 680302,
-        "details": null,
         "dateCreated": 1544469388000,
         "dateModified": 1544469388000
     }

@@ -16,7 +16,6 @@ export class CopperLead {
     @Column({ name: 'company_name', type: 'varchar', nullable: true }) public companyName?: string;
     @Column({ name: 'customer_source_id', type: 'bigint', nullable: true })
     public customerSourceId?: number;
-    @Column({ name: 'details', type: 'varchar', nullable: true }) public details?: string;
     @Column({ name: 'monetary_value', type: 'integer', nullable: true }) public monetaryValue?: number;
     @Column({ name: 'status', type: 'varchar' }) public status!: string;
     @Column({ name: 'status_id', type: 'bigint', transformer: numberToBigIntTransformer }) public statusId!: number;

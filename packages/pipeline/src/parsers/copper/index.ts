@@ -13,7 +13,6 @@ export interface CopperLeadResponse {
     assignee_id?: number;
     company_name?: string;
     customer_source_id?: number;
-    details?: string;
     monetary_value?: number;
     status: string;
     status_id: number;
@@ -31,7 +30,6 @@ export interface CopperActivityResponse {
     parent: CopperActivityParentResponse;
     type: CopperActivityTypeResponse;
     user_id: number;
-    details: string;
     activity_date: number;
     old_value: CopperActivityValueResponse;
     new_value: CopperActivityValueResponse;
@@ -69,7 +67,6 @@ export interface CopperOpportunityResponse {
     company_id?: number;
     company_name?: string;
     customer_source_id?: number;
-    details?: string;
     loss_reason_id?: number;
     pipeline_id: number;
     pipeline_stage_id: number;
@@ -124,7 +121,6 @@ export function parseLeads(leads: CopperLeadResponse[]): CopperLead[] {
         entity.assigneeId = lead.assignee_id;
         entity.companyName = lead.company_name;
         entity.customerSourceId = lead.customer_source_id;
-        entity.details = lead.details;
         entity.monetaryValue = lead.monetary_value;
         entity.status = lead.status;
         entity.statusId = lead.status_id;
@@ -164,7 +160,6 @@ export function parseActivities(activities: CopperActivityResponse[]): CopperAct
         entity.typeName = activity.type.name;
 
         entity.userId = activity.user_id;
-        entity.details = activity.details;
         entity.dateCreated = activity.date_created * ONE_SECOND;
         entity.dateModified = activity.date_modified * ONE_SECOND;
 
@@ -191,7 +186,6 @@ export function parseOpportunities(opportunities: CopperOpportunityResponse[]): 
         entity.companyId = opp.company_id;
         entity.companyName = opp.company_name;
         entity.customerSourceId = opp.customer_source_id;
-        entity.details = opp.details;
         entity.lossReasonId = opp.loss_reason_id;
         entity.pipelineId = opp.pipeline_id;
         entity.pipelineStageId = opp.pipeline_stage_id;

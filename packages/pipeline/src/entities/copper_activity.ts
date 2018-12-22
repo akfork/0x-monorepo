@@ -19,7 +19,6 @@ export class CopperActivity {
     @Column({ name: 'type_name', type: 'varchar', nullable: true }) public typeName?: string;
 
     @Column({ name: 'user_id', type: 'bigint', transformer: numberToBigIntTransformer }) public userId!: number;
-    @Column({ name: 'details', type: 'varchar', nullable: true }) public details?: string;
     @Column({ name: 'old_value_id', type: 'bigint', nullable: true, transformer: numberToBigIntTransformer })
     public oldValueId?: number;
     @Column({ name: 'old_value_name', type: 'varchar', nullable: true }) public oldValueName?: string;

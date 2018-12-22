@@ -14,7 +14,6 @@ export class CopperOpportunity {
     @Column({ name: 'company_name', nullable: true, type: 'varchar' }) public companyName?: string;
     @Column({ name: 'customer_source_id', nullable: true, type: 'bigint', transformer: numberToBigIntTransformer })
     public customerSourceId?: number;
-    @Column({ name: 'details', nullable: true, type: 'varchar' }) public details?: string;
     @Column({ name: 'loss_reason_id', nullable: true, type: 'bigint', transformer: numberToBigIntTransformer })
     public lossReasonId?: number;
     @Column({ name: 'pipeline_id', type: 'bigint', transformer: numberToBigIntTransformer })
